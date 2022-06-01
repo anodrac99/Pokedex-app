@@ -1,0 +1,120 @@
+.pokemon-card-container {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+
+.card-info {
+    text-align: center;
+    margin: 10px 0px;
+    width: 92%;
+}
+
+.image-container {
+    height: 128px;
+    background-image: linear-gradient(rgba(126, 198, 197, 1), rgba(171, 218, 198, 1), rgba(202, 224, 153, 1));
+}
+
+
+.pokemon-image {
+    max-width: 162px;
+    max-height: 178px;
+    padding: 10px 0px 0px 0px;
+}
+
+
+.stats-container {
+    padding: 50px 0px 0px 0px;
+    background-color: aliceblue;
+    height: 250px;
+
+}
+
+
+.pokemon-type-container {
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.stats-container1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.stats-container2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 23px;
+}
+
+@media (min-width: 769px){
+    .pokemon-card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: baseline;
+        align-items: baseline;
+        width: 270px;
+    }
+    
+    .card-info {
+        text-align: center;
+        margin: 10px 0px;
+        width: 250px;
+    }
+    
+    .image-container {
+        height: 128px;
+        background-image: linear-gradient(rgba(126, 198, 197, 1), rgba(171, 218, 198, 1), rgba(202, 224, 153, 1));
+    }
+    
+    
+    .pokemon-image {
+        max-width: 162px;
+        max-height: 178px;
+        padding: 10px 0px 0px 0px;
+    }
+    
+    
+    .stats-container {
+        padding: 50px 0px 0px 0px;
+        background-color: aliceblue;
+        height: 250px;
+    
+    }
+    
+    
+    .pokemon-type-container {
+        border-bottom: 1px solid rgb(202, 202, 202);
+    }
+    
+    .stats-container1 {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 23px;
+    }
+    
+    .stats-container2 {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 23px;
+    }
+
+}
+
+@media (min-width: 1025px){
+
+}

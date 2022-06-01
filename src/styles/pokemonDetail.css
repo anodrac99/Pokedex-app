@@ -1,0 +1,168 @@
+.info-container-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 95%;
+    margin: 40% 10px 0% 10px;
+    text-align: center;
+    border-radius: 5px;
+    height: 600px;
+}
+
+.image-container-detail {
+    width: 98%;
+    margin-top: 3px;
+    border-radius: 5px 5px 0px 0px;
+    height: 120px;
+    background-image: 
+    linear-gradient(rgba(126, 198, 197, 1),
+     rgba(171, 218, 198, 1),
+      rgba(202, 224, 153, 1));
+}
+
+.image-container-detail img {
+    width: 181px;
+    height: 144px;
+}
+
+.id-container {
+    margin-top: 30px;
+    border: 2px solid rgb(202, 202, 202);
+    padding: 5px;
+}
+
+.name-container-detail {
+    display: flex;
+}
+
+.vector-detail {
+    border-top: 2px solid #9F9F9F;
+    height: 2px;
+    width:130px;
+    margin-top: 9px;
+}
+
+.data-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.data-pokemon-detail {
+    display: flex;
+    gap: 5rem;
+}
+
+.types-container {
+    width: 100%;
+    
+}
+
+.types-container ul li {
+    margin-top: 5px;
+    background-color: rgb(217, 111, 44);
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding: 2px;
+}
+
+.types-container div {
+    font-weight: 600;
+}
+
+.abilities-container {
+    width: 100%;
+    
+}
+
+.abilities-container div {
+    font-weight: 600;
+}
+
+.abilities-container ul li {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(203, 203, 203);
+    width: 100px;
+}
+
+.stats-container-detail {
+    width: 100%;
+    padding: 0px 30px;
+}
+
+
+.base-progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+}
+
+.progress-bar-done {
+    border-radius: 10px;
+    height: 20px;
+    background-image: linear-gradient(to right,
+     rgba(252, 214, 118, 1),
+      rgba(230, 144, 30, 1));
+}
+
+
+.movements-container-detail {
+    background-color: white;
+    width: 95%;
+    margin: 10% 10px;
+}
+
+.title-movements {
+    display: flex;
+    padding: 20px 15px;
+}
+
+.vector-title-movements {
+    border-top: 2px solid #9F9F9F;
+    height: 2px;
+    width:200px;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.list-movements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 30px;
+    padding: 10px;
+}
+
+.list-movements li {
+    padding: 8px;
+    background-color: rgb(225, 225, 225);
+    height: 30px;
+    border-radius: 20px;
+    
+}
+
+@media (min-width: 769px){
+
+    .detail-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-container-detail {
+        margin-top: 10%;
+        max-width: 60%;
+        justify-content: center;
+    }
+
+    .movements-container-detail {
+        max-width: 60%;
+    }
+
+    
+}
+

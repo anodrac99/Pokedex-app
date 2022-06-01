@@ -1,0 +1,138 @@
+.login{
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3rem;
+}
+
+.login_logo{
+    height: auto;
+    width: auto;
+}
+
+.login_logo img{
+    height: auto;
+    width: 340px;
+}
+.login-welcome{
+    font-weight: 600;
+    text-align: center;
+}  
+.login-welcome h2,.login-welcome p{
+    margin-top: 10px ;
+} 
+
+
+.login-input button{
+    font-weight: 600;
+    background: #D93F3F;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 0 5px 5px 0 ;
+    border: 2px solid #a02c2c;
+}
+
+.login-input input{
+    height:30px;
+    width: auto;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid black;
+    font-weight: 700;
+}
+.bars-container{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.red-bar{
+    background-color: #DD1A1A;
+    height: 60%;
+    width: 100%;
+}
+.black-bar{
+    background-color: black;
+    height: 40%;
+    width: 100%;
+}
+.pokeball{
+    background: white;
+    border-radius: 50%;
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    bottom: 17%;
+    left: 42%;
+    border: 6px solid black;
+}
+.pokeball2{
+    background: #474747;
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    bottom: 17%;
+    right: 6.5px;
+    border: 6px solid black;
+}
+
+@media (min-width: 769px){
+    .login-input button{
+        height: 45px;
+        width: 120px;
+    }
+    
+    .login-input input{
+        height:45px;
+        width: 400px;
+    }
+
+    .bars-container{
+        height: 110px;
+    }
+ 
+    .pokeball{
+        width: 100px;
+        height: 100px;
+        bottom: 0;
+        left: 44%; 
+    }
+
+    .pokeball2{
+        bottom: 17%;
+        right: 12.8px;
+    }
+
+} 
+@media (min-width: 1025px){
+    .login-input button{
+        height: 45px;
+        width: 120px;
+    }
+    
+    .login-input input{
+        height:45px;
+        width: 400px;
+    }
+    .bars-container{
+        height: 110px;
+    }
+ 
+    .pokeball{
+        width: 100px;
+        height: 100px;
+        bottom: 0;
+        left: 47%;
+    }
+    .pokeball2{
+        bottom: 17%;
+        right: 12.8px;
+  
+    }
+
+} 

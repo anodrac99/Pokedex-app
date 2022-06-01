@@ -1,0 +1,74 @@
+.nav-bars-container{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.nav-red-bar{
+    background-color: #DD1A1A;
+    height: 60%;
+    width: 100%;
+}
+.nav-black-bar{
+    background-color: black;
+    height: 40%;
+    width: 100%;
+}
+.nav-pokeball{
+    background: white;
+    border-radius: 50%;
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    bottom: -20px;
+    right: 10%;
+    border: 6px solid black;
+}
+.nav-pokeball2{
+    background: #474747;
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    bottom: 17%;
+    right: 6.5px;
+    border: 6px solid black;
+}
+.nav-image-container{
+   position: relative;
+   height: auto;
+   width: auto;
+}
+.nav-bars-container img{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    top: 25px;
+    left: 7px;
+}
+
+.nav-login_logo_img {
+    cursor: pointer;
+}
+
+
+@media (min-width: 769px){
+    
+    .nav-pokeball{
+        width: 80px;
+        height: 80px;
+        bottom: -20px;
+        right: 10%;
+    }
+    .nav-pokeball2{
+        bottom: 16%;
+        right: 9.5px;
+    }
+
+    
+    
+}
+
+@media (min-width: 1025px){
+
+}

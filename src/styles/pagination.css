@@ -1,0 +1,23 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.pagination li button {
+    border: none;
+    background: none;
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+.pagination li button:hover {
+    background-color: red;
+    color: white;
+}
